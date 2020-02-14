@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f07863d5-a0f4-4bd1-9c9c-5e4d19ba3b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ProducerDemoWithCallback.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <recent name="com.github.simplesteph.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemo">
+  <component name="RunManager" selected="Application.ProducerDemoKeys">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ConsumerDemo" />
       <module name="kafka-beginners-course" />
@@ -55,8 +56,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ConsumerDemoGroups" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.simplesteph.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ProducerDemo" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.simplesteph.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ProducerDemoKeys" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.ProducerDemoKeys" />
+        <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
+        <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
@@ -107,38 +136,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="142" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581610172363" />
-    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1581652529094">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581652529094" />
-    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1581652529093">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581652529093" />
-    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1581652529093">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581652529093" />
-    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1581652529094">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581652529093" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581652297180">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581652297180" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581652297180">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581652297180" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581652297180">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581652297180" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581652297180">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581652297180" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1581610146239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -155,16 +184,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="834" y="217" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581633208698" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ConsumerDemo.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -8,13 +8,13 @@ import org.slf4j.LoggerFactory;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-public class ProducerDemoWithCallback {
+public class ProducerDemoKeys {
     //Write "psvm" and an option will appearace where it add the
     //main code
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         //It's advisable check kafka documentation in google'
 
-        Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+        Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
 
         String bootstrapServers = "127.0.0.1:9092";
         //Create Producer properties
@@ -31,8 +31,24 @@ public class ProducerDemoWithCallback {
 
 
             //create a producer record
+            String topic ="test_topic";
+            String value = "hello world " +  Integer.toString(i);
+            String key = "id_ " + Integer.toString(i);
             ProducerRecord<String, String> record =
-                    new ProducerRecord<String, String>("test_topic", "hello world" + Integer.toString(i));
+                    new ProducerRecord<String, String>(topic, key, value);
+
+            logger.info("key: " + key);  // log the key
+
+            // id_0 partition 1
+            // id_1 partition 0
+            // id_2 partition 2
+            // id_3 partition 0
+            // id_4 partition 2
+            // id_5 partition 0
+            // id_6 partition 2
+            // id_7 partition 0
+            // id_8 partition 2
+            // id_9 partition 0
 
 
             //send data - asynchronous
@@ -52,7 +68,7 @@ public class ProducerDemoWithCallback {
                         logger.error("Error while producing", e);
                     }
                 }
-            }); // block the .send() to make it synchronous - don't do this in production
+            }).get(); // block the .send() to make it synchronous - don't do this in production
         }
         //flush data
         producer.flush();
