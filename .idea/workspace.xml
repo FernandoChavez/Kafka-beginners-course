@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f07863d5-a0f4-4bd1-9c9c-5e4d19ba3b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ConsumerDemoWithThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simplesteph/kafka/tutorial1/ProducerDemoWithCallback.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
       <recent name="com.github.simplesteph.kafka.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoKeys">
+  <component name="RunManager" selected="Application.ConsumerDemoWithThread">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ConsumerDemo" />
       <module name="kafka-beginners-course" />
@@ -69,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ProducerDemo" />
+    <configuration name="ConsumerDemoWithThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.simplesteph.kafka.tutorial1.ConsumerDemoWithThread" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoWithThread" />
         <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -136,22 +134,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="142" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581610172363" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581658423710">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1581955493298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581658423710">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581955493298" />
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1582001201406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581658423710">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582001201406" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1582001201406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581658423710">
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582001201406" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1582001201406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581658423710" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582001201406" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1582001201406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582001201406" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581658423710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -172,10 +174,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581610146239" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581649937328">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581996680034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581649937328" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581996680034" />
     <state x="345" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581652215461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
